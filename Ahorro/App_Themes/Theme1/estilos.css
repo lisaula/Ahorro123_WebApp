@@ -1,0 +1,131 @@
+﻿body {
+}
+
+#cabecera {
+    height: 150px;
+    background-color: #30405f;/*#ff7800*/
+    color: white;
+    border: 1px dashed #003380;
+    box-shadow: 0px 0px 10px #000;
+    position: relative;
+    z-index: 2;
+}
+
+#contenidoCabecera {
+    width: 960px;
+    margin: auto;
+}
+
+#barraHorizontal {
+    height: 40px;
+    background-color: #af251b;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px #000 inset;
+    text-align: center
+}
+
+    #barraHorizontal >ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #barraHorizontal li {
+        display: inline-block;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #ffffff;/*#FF9a40;*/
+        color: #0B1728;
+        box-shadow: 0px 0px 5px #000 inset;
+    }
+
+    #barraHorizontal li>a {
+        display: block;
+        color: #003380;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+#logo {
+    width: 51%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+    #logo > img {
+        box-shadow: 0px 0px 10px #000;
+    }
+
+#Titulo {
+    width: 48%;
+    float: left;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+}
+
+    #Titulo >h1 {
+       margin-top: 12px;
+    }
+
+    #Titulo >h2 {
+        margin-top: 0;
+    }
+
+#bajo {
+    width: 1260px;
+    margin: auto;
+    background-color: #5599ff;
+    border-radius: 0px 0px 20px 20px;
+    overflow: auto;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#columnIzq, #columnDer {
+    float: left;
+    width: 10%;
+    min-height: 500px;
+}
+
+#columnCentro {
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000 inset;
+}
+
+#pie {
+    height: 30px;
+    background-color: #30405f;
+    border-radius: 0px 0px 20px 20px;
+    clear: both;
+    box-shadow: 0px 0px 5px #000 inset;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#menuContextual {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+#menuContextual >li {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #0B1728;
+    border: 1px outset #30405f;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+
+#menuContextual>li>a {
+    text-decoration: none;
+    color: #0B1728;
+
+}
+
+
+

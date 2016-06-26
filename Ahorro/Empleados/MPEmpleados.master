@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPEmpleados.master.cs" Inherits="Ahorro.Empleados.MPEmpleados" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id="menuContextual">
+        <li><a href="AdministrarEmpleados.aspx">Administrar Empleados</a></li>
+        <li><a href="IngresarEmpleado.aspx">Ingresar Empleados</a></li>
+    </ul>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
