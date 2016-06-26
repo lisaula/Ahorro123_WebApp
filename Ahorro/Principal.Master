@@ -15,7 +15,7 @@
             <div id="contenidoCabecera">
                 <div id="barraHorizontal">
                     <ul>
-                        <li><a href="/Default.aspx">Inicio</a></li>
+                        <li><a href="/Login.aspx">Inicio</a></li>
                         <li><a href="/Empleados/AdministrarEmpleados.aspx">Empleados</a></li>
                     </ul>
                 </div>

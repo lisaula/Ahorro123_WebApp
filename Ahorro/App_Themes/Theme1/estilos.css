@@ -16,6 +16,7 @@
     margin: auto;
 }
 
+
 #barraHorizontal {
     height: 40px;
     background-color: #af251b;
@@ -126,6 +127,43 @@
     color: #0B1728;
 
 }
+
+#Login {
+    background-color: #f0f0f0;
+    width: 250px;
+    border: 1px solid white;
+    margin: 200px auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+    #Login > h1 {
+        color: #0080ff;
+    }
+
+    #Login > input[type=text], #Login> input[type=password] {
+        margin: 0 0 1em 0;
+        width: 200px;
+        border: 0px;
+        padding: 1em;
+        border-radius: 3px;
+    }
+
+    #Login > input[type=submit], #Login > a {
+        padding: 1em;
+        background-color: #0080ff;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 3px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+     #Login > input[type=submit]:hover, #Login > a:hover {
+         background-color: #0040ff;
+     }
 
 
 

@@ -83,6 +83,7 @@
     <Content Include="Empleados\IngresarEmpleado.aspx" />
     <Content Include="imagenes\logo_unitec.png" />
     <Content Include="imagenes\unitec_logo.jpg" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="Empleados\MPEmpleados.master.designer.cs">
       <DependentUpon>MPEmpleados.master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
