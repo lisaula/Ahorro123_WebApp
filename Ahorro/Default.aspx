@@ -8,5 +8,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
-    <h2>Bienvenido a la web</h2>
+    <h2>Bienvenido a la web
+        <asp:Label ID="lbl_username" runat="server"></asp:Label>
+    </h2>
 </asp:Content>

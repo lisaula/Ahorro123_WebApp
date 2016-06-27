@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPReportes.master.cs" Inherits="Ahorro.Reportes.MPReportes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id="menuContextual">
+        <li><a href="../Reportes/CierreAnual.aspx">Cierre anual</a></li>
+        <li><a href="../Reportes/GananciaPrestamo.aspx">Ganancias de prestamo por año</a></li>
+        <li><a href="../Reportes/InversionesEmpleados.aspx">Inversiones de empleados</a></li>
+        <li><a href="../Reportes/NuevasAfiliaciones.aspx">Nuevas Afiliaciones</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPAbono.master.cs" Inherits="Ahorro.Abono.MPAbono" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id="menuContextual">
+        <li><a href="../Abono/VerAbonos.aspx">Ver abonos</a></li>
+        <li><a href="../Abono/IngresarAbono.aspx">Ingresar abono a cuenta</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>

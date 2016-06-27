@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Ahorro
+namespace Ahorro.Prestamos
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class AdministrarPrestamo : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["username"] == null)
+                Response.Redirect("/Login/LogIn.aspx");
         }
     }
 }

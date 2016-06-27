@@ -14,10 +14,17 @@
         <div id="cabecera">
             <div id="contenidoCabecera">
                 <div id="barraHorizontal">
+                    <div id="barMenu" runat="server" >
                     <ul>
-                        <li><a href="/Login.aspx">Inicio</a></li>
+                        <li><a href="/Default.aspx">Inicio</a></li>
                         <li><a href="/Empleados/AdministrarEmpleados.aspx">Empleados</a></li>
+                        <li><a href="/Cuentas/AdministrarCuentas.aspx">Cuentas</a></li>
+                        <li><a href="../Abono/VerAbonos.aspx">Abonos</a></li>
+                        <li><a href="../Prestamos/AdministrarPrestamo.aspx">Prestamos</a></li>
+                        <li><a href="../Pagos/VerPagos.aspx">Pagos</a></li>
+                        <li><a href="/Reportes/CierreAnual.aspx">Reportes</a></li>
                     </ul>
+                    </div>
                 </div>
                  <div id="logo">
                      <img src="/imagenes/logo_unitec.png" alt="logo_Unitec" width="350"/>
@@ -50,5 +57,13 @@
         </div>
     </div>
     </form>
+    <script type="text/javascript">
+        var someSessionVariable = '@Session["username"]';
+        if (someSessionVariable !== null) {
+            $("#barMenu").show();
+        } else {
+            $("#barMenu").hide();
+        }
+    </script>
 </body>
 </html>
